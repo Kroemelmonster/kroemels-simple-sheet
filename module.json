@@ -1,0 +1,45 @@
+{
+    "name": "kroemels-simple-sheet",
+    "title": "Kroemel's Simple Sheet",
+    "description": "Guddendach",
+    "authors": [
+        {
+            "name": "Kroemel",
+            "discord": "Kroemelmonster#9651",
+            "flags": {}
+        }
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "compatibility": {
+                    "minimum": "2.0.1",
+                    "compatible": "2.0.3"
+                }
+            }
+        ],
+        "requires": [
+        ]
+    },
+    "version": "",
+    "minimumCoreVersion": "10",
+    "compatibleCoreVersion": "10",
+    "esmodules": [
+        "main.js",
+        "apps/settings.js",
+        "apps/utils.js"
+    ],
+    "url": "https://github.com/Kroemelmonster/kroemels-simple-sheet",
+    "manifest": "https://github.com/Kroemelmonster/kroemels-simple-sheet/releases/latest/download/module.json",
+    "download": "https://github.com/Kroemelmonster/kroemels-simple-sheet/releases/latest/download/module.zip",
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        }    ],
+    "id": "kroemels-simple-sheet"
+}
